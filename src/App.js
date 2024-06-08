@@ -13,6 +13,8 @@ import AddDomnation from './pages/DonateNow';
 import ScholarshipForm1 from './pages/ScholarshipFormForEmpKids';
 import ScholarshipForm2 from './pages/ScholarshipFormForEmpThemselve';
 import Gallery from './component/Gallery';
+import FAQ from './pages/FAQ';
+import DonateNow from './pages/DonateNow';
 
 function App() {
   return (<BrowserRouter>
@@ -23,6 +25,9 @@ function App() {
       <Route path='/aboutUs' element={<AboutUs/>}/>
       <Route path='/meeting' element={<Meeting/>}/>
       <Route path='/acheivement' element={<Acheivement/>}/>
+      <Route path='/addtestinomials' element={<AddTestinomial/>}/>
+      <Route path='/donatenow' element={<DonateNow/>}/>
+      <Route path='/faq' element={<FAQ/>}/>
 
     </Routes>
     <Footer/>
