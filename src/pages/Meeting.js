@@ -4,3 +4,4 @@ function Meetings(){
         <p> cccccc</p>
     </div>
 }
+export default Meetings;
